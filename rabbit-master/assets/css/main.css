@@ -24,27 +24,30 @@ body{
 			overflow: hidden;
 		}
 
-		.img-rabbit{
-			/*margin: 0 -15px;*/
-		}
 
-		.btn-group-vertical{
-    		padding: 20px 87.5px;
-    	}
+.btn-group-vertical{
+  padding: 20px 87.5px;
+}
 
-    	.info{
-			font-family: "Crimson";
-			line-height: 28px;
-		    font-size: 16px;
-		    padding-top: 15px;
-		    padding-right: 50px;
-		}
+.info{
+	font-family: "Arial";
+	line-height: 28px;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-right: 50px;
+}
+
+li {
+	font-size: 1vw;
+	padding-left: 30%;
+	padding-bottom: 1%;
+	font-weight: 800;
+}
 		
-		.home-description{
-			padding-right: 90px;
-			padding-left: 90px;
-			
-		}
+.home-description{
+	padding-right: 90px;
+	padding-left: 90px;		
+	}
 }
 .img-rabbit{
 	width: 100%;
@@ -67,7 +70,7 @@ body{
 	border-color: #bb9e7d;}
 
 p{
-	color: #585757;
+	color:lightslategray ;
 	font-size: 16px;
 	
 }
@@ -85,14 +88,16 @@ p{
 }
 
 .logo h4{
-	font-family: 'Josefin Sans';
+	font-style: oblique;
+	font-weight: 800;
+	color: darkcyan;
 }
 
-
-footer{
-	padding: 22px 0 10px 0;
+footer {
+	padding: 12px 0 10px 0;
 	font-style: italic;
-	}
+	color: darksalmon;
+}
 
 
 .back{
@@ -100,7 +105,6 @@ footer{
     font-family: "Crimson";
     font-size: 17px;
     font-style: italic;
-    vertical-align: middle;
     text-align: center;
     display: block;
     clear: both;
@@ -135,7 +139,7 @@ footer{
 	/*margin-top: 35px;*/
 	/*margin-bottom: 25px;*/
 	font-size: 32px;
-	font-weight: 400;
+	font-weight: 600;
 	
 }
 .form-control{
@@ -178,9 +182,10 @@ footer{
 	margin: 2px;
 }
 
-.social{
+.social {
 	display: inline-block;
-  color: black;
+	word-spacing: 3em;
+  color: slategray;
   margin-inline-end: auto;
   padding: 14px 16px;
   text-decoration: none;
@@ -188,16 +193,16 @@ footer{
 
 a {
 	float:inline-end;
-	color: black;
+	color:darkcyan;
 	font-size: 2em;
 	font-style: oblique;
 }
 
 a:hover {
-  background-color: chartreuse;
+  background-color: honeydew;
 }
 
-.submit{
+.submit {
 	font-family: "Crimson";
 	font-size: 16px;
 }
