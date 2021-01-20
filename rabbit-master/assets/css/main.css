@@ -99,6 +99,10 @@ footer {
 	color: darksalmon;
 }
 
+.letters {
+	color:black;
+	font-weight: 800;	
+}
 
 .back{
     width: 170px;    
