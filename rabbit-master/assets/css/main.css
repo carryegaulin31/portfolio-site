@@ -1,6 +1,7 @@
 body{
 	background-color:darkseagreen;
 	font-family: "Crimson Text";
+	position: relative;
 }
 
 .main{
@@ -8,13 +9,12 @@ body{
 }
 
 .home-description{
-	font-style: italic;
-	font-weight: 600;
-	font-family: "Crimson";
-	font-size: 19px;
-    padding-top: 15px;
+	font-family: 'Old Standard TT', serif;
+	font-size: 20px;
+    padding-top: 2px;
     padding-bottom: 25px;
     line-height: 29px;
+	color: lightcoral;
 }
 
 @media (min-width: 778px)
@@ -33,27 +33,29 @@ body{
 	font-family: "Arial";
 	line-height: 28px;
 	font-size: 16px;
-	padding-top: 15px;
+	padding-top: 8px;
 	padding-right: 50px;
 }
 
 li {
-	font-size: 1vw;
+	font-size: 1.2vw;
 	padding-left: 30%;
 	padding-bottom: 1%;
-	font-weight: 800;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.568);
 }
 		
 .home-description{
 	padding-right: 90px;
-	padding-left: 90px;		
+	padding-left: 90px;	
+	padding-top: 20px;	
 	}
 }
 .img-rabbit{
 	width: 100%;
 }
 .btn-rabbit{
-	background-color: #fff;
+	background-color: lightblue;
 	color: #111;
 	font-style: italic;
 	border: 1px solid #111;
@@ -66,10 +68,10 @@ li {
 
 .btn-rabbit:hover{
 	color: #fff;
-	background-color: #bb9e7d;
+	background-color: lightcoral;
 	border-color: #bb9e7d;}
 
-p{
+p {
 	color:lightslategray ;
 	font-size: 16px;
 	
@@ -82,8 +84,7 @@ p{
 
 /*Home Style*/
 .logo{
-	padding-top: 100px;
-	text-transform: uppercase;
+	padding-top: 25px;
 	font-size: 12px;
 }
 
@@ -187,7 +188,7 @@ footer {
 .social {
 	display: inline-block;
 	word-spacing: 3em;
-  color: slategray;
+  color:lightblue;
   margin-inline-end: auto;
   padding: 14px 16px;
   text-decoration: none;
@@ -195,13 +196,13 @@ footer {
 
 a {
 	float:inline-end;
-	color:darkcyan;
+	color:lightblue;
 	font-size: 2em;
 	font-style: oblique;
 }
 
 a:hover {
-  background-color: honeydew;
+  background-color:#ffff00af;
 }
 
 .submit {
@@ -211,9 +212,9 @@ a:hover {
 
 .subtitle{
 	font-style: italic;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 20px;
-	color: #3b3b3b;
+	color:mediumseagreen;
 	line-height: 28px;
 	font-family: "Crimson";
 	margin-top: 15px;
@@ -313,6 +314,15 @@ a:hover {
   -vendor-animation-delay: 2s;
   -vendor-animation-iteration-count: infinite;
 }
-.show{
+.show {
 	display: block;
+}
+
+.projects {
+	background-color:rgba(96, 205, 92, 0.836);
+}
+
+.novel {
+	border-radius: 8px;
+	border-image-width: 10px;
 }
